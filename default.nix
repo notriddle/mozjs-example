@@ -22,6 +22,9 @@ let
       mozjs_sys = {src, ...}: {
         # Tell it to pull in all our specified deps (like autoconf).
         buildInputs = dependencies.devDeps;
+        prePatch = ''
+          substituteInPlace makefile.cargo --replace '/usr/bin/env bash' '${pkgs.bash}/bin/bash'
+        '';
       };
     };
   };

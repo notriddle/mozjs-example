@@ -13,6 +13,10 @@ in
     pkgs.cargo
     pkgs.llvm
     pkgs.autoconf213
+    pkgs.python3
+    pkgs.python2
+    pkgs.which
+    pkgs.perl
   ];
   # Pinned versions of other tools.
   libclang = pkgs.llvmPackages.libclang;
