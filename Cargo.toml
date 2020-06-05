@@ -1,0 +1,10 @@
+[package]
+name = "mozjs-example"
+version = "0.0.1"
+authors = ["Michael Howell <michael@notriddle.com>"]
+edition = "2018"
+
+[dependencies]
+smol = "0.1.5"
+mozjs = { git = "https://github.com/servo/rust-mozjs" }
+
