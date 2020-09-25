@@ -55,7 +55,7 @@ pub async fn run_js<I: Iterator<Item=String>>(i: I) {
 
 pub unsafe fn jsvalue_debug(cx: *mut JSContext, r: Value) {
     if r.is_string() {
-        EncodeStringToUTF8(cx, Handle::new(&r.to_string()), |cstr| {
+        EncodeStringToUTF8(cx, Handle::from_marked_location(&r.to_string()), |cstr| {
             println!("{:?}", CStr::from_ptr(cstr));
         });
     } else if r.is_int32() {
