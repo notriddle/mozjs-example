@@ -1,4 +1,4 @@
 {
-  "mozjs 0.13.0 (git+https://github.com/servo/rust-mozjs#28248e1d6658e92dd5ecb0866e53a97f043b9b38)": "1m67y0h0z3pybh9ndqf8kpv6ch9lb7bl83i523wl72shvgd93iiz",
-  "mozjs_sys 0.68.1 (git+https://github.com/servo/mozjs?rev=9a6d8fc6b0cf13cd02efbd805ccdf62ddc5ce593#9a6d8fc6b0cf13cd02efbd805ccdf62ddc5ce593)": "0m4kyc7zyay878zvvrs8gliw47glw022zbbgb2ikkz92p46gh5pv"
+  "mozjs 0.14.1 (git+https://github.com/servo/rust-mozjs#e9f71b6458135c1e63fee9261dabcd8c3efa6ccf)": "18cgbk2d2fmi8cs2rqcnwzhpwnhay9ss1f1injslk5b0axyjps1w",
+  "mozjs_sys 0.68.2 (git+https://github.com/servo/mozjs?rev=a40b829f0fefa06a743f006260c7facebcfa27aa#a40b829f0fefa06a743f006260c7facebcfa27aa)": "07l3l7l5mssms50acrw73f5zabn4vwn8b2rs2ajfvaa55hjiq107"
 }
